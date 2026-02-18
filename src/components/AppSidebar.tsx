@@ -18,7 +18,7 @@ interface AppSidebarProps {
 }
 
 const navItems = [
-  { label: "Dashboard", to: "/", icon: LayoutDashboard, end: true },
+  { label: "Dashboard", to: "/dashboard", icon: LayoutDashboard, end: true },
   { label: "Lead Search", to: "/lead-search", icon: Search },
   { label: "Campaigns", to: "/campaigns", icon: Megaphone },
   { label: "Automations", to: "/automations", icon: Zap },
